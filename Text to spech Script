@@ -1,0 +1,9 @@
+DELAY 2000
+GUI r
+DELAY 100
+STRING mshta vbscript:Execute("Dim sapi:Set sapi=CreateObject(""sapi.spvoice""):sapi.Speak ""type in your text"":set sapi=nothing ")
+ENTER
+DELAY 100
+ALT F4
+
+#Tested on WIN 10
